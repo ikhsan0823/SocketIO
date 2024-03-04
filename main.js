@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server, {
     cors: {
-        origin: "http://localhost:2002",
+        origin: "https://test-build-from0.vercel.app",
         credentials: true
     }
 });
